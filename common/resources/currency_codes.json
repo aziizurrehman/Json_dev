@@ -1,0 +1,34 @@
+[
+	{
+		"alphaCode": "BHD",
+		"currencyCode": "048"
+	},
+	{
+		"alphaCode": "PKR",
+		"currencyCode": "586"
+	},
+	{
+		"alphaCode": "SAR",
+		"currencyCode": "682"
+	},
+	{
+		"alphaCode": "AED",
+		"currencyCode": "784"
+	},
+	{
+		"alphaCode": "GBP",
+		"currencyCode": "826"
+	},
+	{
+		"alphaCode": "USD",
+		"currencyCode": "840"
+	},
+	{
+		"alphaCode": "FRF",
+		"currencyCode": "250"
+	},
+	{
+		"alphaCode": "EUR",
+		"currencyCode": "978"
+	}
+]

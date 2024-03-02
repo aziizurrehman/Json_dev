@@ -1,0 +1,67 @@
+{
+	"ValidationError":{
+		"code": 400,
+		"message": "Validation Failed"
+	},
+	"0000002":{
+		"code": 400,
+		"message": "Validation Failed"
+	},
+	"TargetSystemValidationError":{
+		"code": 406,
+		"message": "Target System Validation Failed"
+	},
+	"JSONValidation":{
+		"code": 501,
+		"message": "Connection Timeout"
+	},
+	"ConnectTimeout":{
+		"code": 599,
+		"message": "Read Timeout"
+	},
+	"ReadTimeout":{
+		"code": 598,
+		"message": ""
+	},
+	"TargetSystemError":{
+		"code": 503,
+		"message": ""
+	},
+	"APIInternalError":{
+		"code":500,
+		"message": "Internal Server Error"
+	},
+	"Success":{
+		"code": 200,
+		"message": "Sucess"
+	},
+	"0000000":{
+		"code": 200,
+		"message": "Sucess"
+	},
+	"ECONNREFUSED":{
+		"code":"",
+		"message":"ConnectTimeout"
+	},
+	"ETIMEDOUT":{
+		"code":"",
+		"message": "ReadTimeout"
+	},
+	"ESOCKETTIMEDOUT":{
+		"code":"",
+		"message": "ReadTimeout"
+	},
+	"404":{
+		"code":"",
+		"message": "JSONValidation"
+	},
+	"F":{
+		"code":"",
+		"message": "TargetSystemValidationError"
+	},
+	"21":{
+		"code":"21",
+		"message":"Access not Allowed"
+	}
+	
+}

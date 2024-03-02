@@ -1,0 +1,273 @@
+{
+    "smtp": {
+        "host": "SMTP_HOST",
+        "port": "SMTP_PORT",
+        "auth": {
+            "user": "SMTP_USER",
+            "pass": "SMTP_PASSWORD"
+        }
+    },
+    "misys": {
+        "requestTimeOut": "TIMEOUT",
+        "api": "API_URL",
+        "biometricApi": "BIOMETRIC_API_URL",
+        "etdrapi": "ETDRAPI_URL",
+        "mudapi": "MUD_URL"
+    },
+    "api": {
+        "scanCorp": {
+            "v1": {
+                "api_type": "REST",
+                "url": "SCANCORP_API_URL",
+                "method": "POST"
+            }
+        },
+        "scanInd": {
+            "v1": {
+                "api_type": "REST",
+                "url": "SCANIND_API_URL",
+                "method": "POST"
+            }
+        },
+        "statusinquiry": {
+            "v1": {
+               
+                "url": "SCANINQUIRY_API_URL"
+                
+            }
+        },
+        "accountValidate": {
+            "v1": {
+              
+                "url": "ACCOUNTVALIDATE_API_URL"
+               
+            }
+        },
+        "fundTransfer": {
+            "v1": {
+               
+                "url": "FUNDTRANSFER_API_URL"
+               
+            }
+        },
+        "transactioninquiry": {
+            "v1": {
+                
+                "url": "FTINQUIRY_API_URL"
+                
+            }
+        },
+        "accountStatement": {
+            "v1": {
+                
+                "url": "ACCOUNTSTATEMENT_API_URL"
+                
+            }
+        },
+        "riskRating": {
+            "v1": {
+               
+                "url": "RISKRATING_API_URL"
+                
+            }
+        },
+        "fundTransferMultiLegFT": {
+            "v1": {
+               
+                "url": "MULTILEGFT_API_URL"
+               
+            }
+        },
+        "fundTransferMultiLegFTInquiry": {
+            "v1": {
+              
+                "url":  "MULTILEGINQ_API_URL"
+              
+            }
+        },
+        "companyInquiry": {
+            "v1": {
+                
+                "url":  "MULTILEGCOMPANY_API_URL"
+               
+            }
+        },
+        "misysUserLogin": {
+            "v1": {
+               
+                "url":  "MULTILEGLOGIN_API_URL"
+                
+            }
+        },
+        "fundTransferFcy": {
+            "v1": {
+                "user" : "FCY_USER",
+                "postingUser" : "FCY_POSTINGUSER",
+                "drTrCode" : "FCY_DRTRCODE",
+                "crTrCode" : "FCY_CRTRCODE",
+                "batch" : "FCY_BATCH",              
+                "url": "FCY_URL"
+            }
+        },
+        "accountDetails": {
+            "v1": {
+                
+                "url": "ACCOUNTDETAILS_API_URL"
+               
+            }
+        },
+        "accountholders": {
+            "v1": {
+                
+                "url": "ACCOUNTHOLDER_API_URL"
+               
+            }
+        },
+        "fundTransferRTGS": {
+            "v1": {
+                
+                "url": "FTRTGS_API_URL"
+               
+            }
+        },
+        "bankCodelist": {
+            "v1": {
+                
+                "url": "BANKCODE_API_URL"
+               
+            }
+        },
+        "spotRate": {
+            "v1": {
+                
+                "url": "SPOTRATE_API_URL"
+               
+            }
+        },
+        "currencyConversion": {
+            "v1": {
+                
+                "url": "CURRENCYCONVERSION_API_URL"
+               
+            }
+        },
+        "ataFlag": {
+            "v1": {
+                
+                "url": "ATAFLAG_API_URL"
+               
+            }
+        },
+        "mobileAppEnrollment": {
+            "v1": {
+               
+                "token" : "MOBILE_TOKEN",
+                "transactionType": "MOBILE_TYPE",
+                "channelID" :"MOBILE_ID",
+                "channel": "MOBILE_CH",
+                "versionNo": "MOBILE_V",
+                "cer": "SSL_CER",
+                "url": "ENROLLMENT_API_URL"
+               
+            }
+        },
+        "accountBalancev3": {
+            "v1": {
+                
+                "url": "BALANCEV3_API_URL"
+               
+            }
+        },
+        "accountStatementMobile": {
+            "v1": {               
+                "mongodbIP" : "MONGODB_IP",
+                "mongodbPORT" : "MONGODB_PORT",
+                "user": "MONGODB_USER",
+                "password": "MONGODB_PASSWORD",
+                "Database" : "MONGODB_DBNAME",
+                "collectionName" : "MONGODB_COLLECTION",                
+                "url": "ACC_STATE_URL1",
+                "method": "PUT",
+                "url2": "ACC_STATE_URL2"           
+               
+            }
+        },
+        "accountStatementTwoYears": {
+            "v3": {               
+                "mongodbIP" : "MONGODB_IP",
+                "mongodbPORT" : "MONGODB_PORT",
+                "user": "MONGODB_USER",
+                "password": "MONGODB_PASSWORD",
+                "Database" : "MONGODB_DBNAME",
+                "collectionName" : "MONGODB_COLLECTION",  
+                "method": "POST",
+                "url": "ACC_STATE_URL2",
+                "active_mode": "MONGO"          
+               
+            }
+        },
+        "fundTransferFcyBill": {
+            "v1": {
+                "user" : "FCYBILL_USER",
+                "postingUser" : "FCYBILL_POSTINGUSER",
+                "drTrCode" : "FCYBILL_DRTRCODE",
+                "crTrCode" : "FCYBILL_CRTRCODE",
+                "batch" : "FCYBILL_BATCH",              
+                "url": "FCYBILL_URL"
+            }
+        },
+        "unitDate": {
+            "v1": {
+                
+                "url": "UNITDATE_URL"
+                
+            }
+        },
+        "updateSpecialCondition": {
+            "v1": {
+                "user": "SPECOND_USER",
+                "postingUser": "SPECOND_POSTINGUSER",
+                "drTrCode": "SPECOND_DRTRCODE",
+                "crTrCode": "SPECOND_CRTRCODE",
+                "batch": "SPECOND_BATCH",
+                "url": "SPECOND_URL"
+            }
+        },
+        "accountRelationship": {
+            "v1": {
+                "user": "ARID_USER",
+                "postingUser": "ARID_POSTINGUSER",
+                "drTrCode": "ARID_DRTRCODE",
+                "crTrCode": "ARID_CRTRCODE",
+                "batch": "ARID_BATCH",
+                "url": "ARID_URL"
+            }
+        },
+        "currencyValidate": {
+            "v1": {
+                
+                "url": "CURRENCYRATEINQUIRY_URL"
+                
+            }
+        },
+        "emailExpress": {
+            "v1": {               
+                "ip": "SMPT_IP",
+                 "port": "SMPT_PORT"
+            }
+        },
+        "stopCheque": {
+          "v1": {
+        "url": "SCCHEQUESTOP_URL",        
+        "inputBranch": "SCINPUT_BR",
+        "eQUSER": "SCEQ_USER",
+        "description": "SCDESCRIPTION",
+        "chargeCode": "SCCHARGE_CODE",
+        "chargeAmount": "SCCHARGE_AMOUNT"
+          }
+        }
+    },
+    "rest": {
+        "requestTimeOut": "API_TIMEOUT"
+    }
+}
