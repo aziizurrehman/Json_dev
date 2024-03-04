@@ -1,6 +1,6 @@
 {
-  "PORT": 2020,
-  "PORTHTTPS": 2021,
+  "PORT": 2022,
+  "PORTHTTPS": 2023,
   "logging": {
     "base_path": "logs/",
     "default_file": "server",
@@ -9,16 +9,6 @@
   },
   "api": {
     "v1": {
-      "accountStatement": {
-        "api_type": "REST",
-        "method": "GET",
-        "url": "http://10.200.65.226:2568/24xConnect/Inquiry",
-        "allowedChannels": ["MB"],
-        "reqType": "ACT",
-        "channel": "0088",
-        "userId": "OSB",
-        "pass": "Hbl@123"
-      },
       "accountBalance": {
         "api_type": "REST",
         "method": "GET",

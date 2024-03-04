@@ -57,10 +57,10 @@
                 
             }
         },
-        "accountStatement": {
+        "accountBalance": {
             "v1": {
                 
-                "url": "ACCOUNTSTATEMENT_API_URL"
+                "url": "accountBalance_API_URL"
                 
             }
         },
@@ -178,7 +178,7 @@
                
             }
         },
-        "accountStatementMobile": {
+        "accountBalanceMobile": {
             "v1": {               
                 "mongodbIP" : "MONGODB_IP",
                 "mongodbPORT" : "MONGODB_PORT",
@@ -192,7 +192,7 @@
                
             }
         },
-        "accountStatementTwoYears": {
+        "accountBalanceTwoYears": {
             "v3": {               
                 "mongodbIP" : "MONGODB_IP",
                 "mongodbPORT" : "MONGODB_PORT",

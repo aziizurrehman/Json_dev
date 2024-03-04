@@ -46,7 +46,7 @@ const authenticateChannel = (channel, apiUrl, reqId) => {
 
 // authentication for misys allow channels  
   const allowedChannelsArray = channelObj.allowedChannels;
-
+  // logger.info(allowedChannelsArray,"allowedChannelsArray");
   if (allowedChannelsArray.indexOf(channel) === -1) {
     return new APIResponse(
       "Fail",

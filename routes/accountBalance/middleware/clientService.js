@@ -21,8 +21,6 @@ class ClientService {
 
   async perform(apiRequest) {
 
-    try{
-
     this.logger.debug(
      { 
       method:"ClientService().perform()",
@@ -41,8 +39,14 @@ class ClientService {
       message:"ClientRequest Generated Payload Request FT RTGS V1",
       payload: payload}
     );
-      
+      console.log(payload.url)
     //Developer's Responsibility
+    // const result = await this.client.performRestRequest(
+    //   apiRequest.headers,
+    //   payload,
+    //   config.get("api.currencyValidate.v1.method"),
+    //   config.get("api.currencyValidate.v1.url"),
+    // );
     const result = await this.client.performRestRequest(
       payload.headers,
       payload.data,
@@ -61,10 +65,7 @@ class ClientService {
     this.logger.debug({method:"ClientService.perform()",message:"ClientResponse Object Constructed :", clientResponse});
 
     return clientResponse.getPayloadResponse(apiRequest.headers, result);
-  }catch(error){
-    throw error
   }
-}
 }
 
 module.exports = ClientService;

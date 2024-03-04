@@ -157,7 +157,7 @@ class Service {
           "",
           "Something went wrong to fullfull the results, Kindly contact with administrator.",
           "APIInternalError",
-          error.message
+          error.stack
         ));
     }
    

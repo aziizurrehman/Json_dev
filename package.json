@@ -1,5 +1,5 @@
 {
-  "name": "accountstatment",
+  "name": "newversion",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,10 +9,9 @@
     "prod": "node server.js"
   },
   "keywords": [],
-  "author": "Shahzad Hussain & Dhanesh Kumar",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hbl_package/client": "^1.0.0",
     "axios": "^0.27.2",
     "config": "^3.3.10",
     "dotenv": "^16.3.1",

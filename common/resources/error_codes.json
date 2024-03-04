@@ -58,10 +58,6 @@
 	"F":{
 		"code":"",
 		"message": "TargetSystemValidationError"
-	},
-	"21":{
-		"code":"21",
-		"message":"Access not Allowed"
 	}
 	
 }

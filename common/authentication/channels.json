@@ -1,12 +1,9 @@
 [
   {
-    "url": "/accountStatement",
-    "allowedChannels": ["BB", "MB", "IBMB", "HBPS", "REMIT","CRPL"]
-  },
-  {
     "url": "/accountBalance",
     "allowedChannels": [
-      "BB", "MB", "IBMB", "HBPS", "REMIT", "CRPL"
+      "MB"
     ]
   }
+
 ]

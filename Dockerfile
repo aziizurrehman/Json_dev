@@ -24,7 +24,7 @@ RUN npm install
 
 # Expose the port your Node.js application will run on
 
-EXPOSE 8002
+EXPOSE 2023
 
 # Command to run your project
 

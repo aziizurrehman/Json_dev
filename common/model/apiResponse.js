@@ -5,8 +5,8 @@ message: '',
 type: '',
 developer_message: {} }) {
     this.message = message
+    this.responseCode = data.ResultCode
     if (JSON.stringify(data) !== '{}') {
-      this.responseCode = data.ResultCode
 
       this.data = data
     }

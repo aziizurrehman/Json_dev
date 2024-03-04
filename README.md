@@ -1,4 +1,4 @@
-# Account-Statement-Balance
+# accountBalance
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://rp.zeuscloudconnect.com:8080/it_solutions/teameimsdev/enzomiddlewareservices/account-statement-balance.git
+git remote add origin https://rp.zeuscloudconnect.com:8080/it_solutions/teameimsdev/accountBalance.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](http://hbl.gitlabdevops.com/it_solutions/teameimsdev/enzomiddlewareservices/account-statement-balance/-/settings/integrations)
+- [ ] [Set up project integrations](http://hbl.gitlabdevops.com/it_solutions/teameimsdev/accountBalance/-/settings/integrations)
 
 ## Collaborate with your team
 
